@@ -91,4 +91,4 @@ To run on Casper:
 
 Ensure you have made necessary changes to the project account key and paths in the script.
 
-That should be it!
+There is a plotting script, plot_tempestextremes.ipynb, that you can use to make plots of TC tracks and intensity of the TCs in \`tc\_tracks.txt\`.
