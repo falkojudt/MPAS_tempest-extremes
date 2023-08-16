@@ -4,6 +4,7 @@ dx=15km
 # Directory containing MPAS files
 datadir=/glade/campaign/mmm/wmr/fjudt/projects/dyamond_1/$dx
 
+# Modify the 'mesh_dict' associative array to map resolution names to the corresponding mesh IDs.
 # Associative array mapping resolution names to mesh IDs
 declare -A mesh_dict
 mesh_dict["480km"]=2562
