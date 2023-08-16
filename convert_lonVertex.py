@@ -20,6 +20,7 @@ Dependencies:
 import shutil
 import numpy as np
 import netCDF4 as nc
+import os
 
 # Directory containing MPAS grid files
 datadir = "/glade/scratch/fjudt/mpas_meshes"
@@ -42,6 +43,8 @@ dx = "15km"
 # Source and destination file paths
 src_file = f"{datadir}/x1.{resolution_dir[dx]}.grid.nc"
 dst_file = f"{datadir}/x1.{resolution_dir[dx]}.grid.modified-lonVertex.nc"
+base, ext = os.path.splitext(src_file)
+dst_file = base + ".modified-lonVertex" + ext
 
 # Copy the source file to the destination
 shutil.copyfile(src_file, dst_file)
