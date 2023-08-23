@@ -19,13 +19,15 @@ The scripts required to pre-process the data and run TE can be downloaded by clo
 
 Pre-processing steps:
 
-Before running Tempest Extremes, some pre-processing steps need to be performed to ensure compatibility with the tool. Steps 1-3 only need to be done once for each MPAS mesh, **and only if a connectivity file does not exist**. Check for a connectivity file for a given mesh here: \`/glade/campaign/mmm/wmr/fjudt/mpas\_meshes/x1.XXXXXX.grid-connectivity.txt\`, where XXXXXX represents the number of cells in the mesh. For example, the 15-km MPAS mesh has 2621442 cells, so we would look for the connectivity file \`x1.2621442.grid-connectivity.txt\`. If such a file does not exist, proceed with Steps 1-3 below; otherwise, continue with Step 4.
+Before running Tempest Extremes, some pre-processing steps need to be performed to ensure compatibility with the tool. Steps 2-4 only need to be done once for each MPAS mesh, **and only if a connectivity file does not exist**. Check for a connectivity file for a given mesh here: \`/glade/campaign/mmm/wmr/fjudt/mpas\_meshes/x1.XXXXXX.grid-connectivity.txt\`, where XXXXXX represents the number of cells in the mesh. For example, the 15-km MPAS mesh has 2621442 cells, so we would look for the connectivity file \`x1.2621442.grid-connectivity.txt\`. If such a file does not exist, proceed with Steps 1-3 below; otherwise, continue with Step 5.
 
-Note: If you need to run Step 2 (Creating a SCRIP file), ensure you have installed the 'mpas-tools' package from <https://github.com/MPAS-Dev/MPAS-Tools>. Here we assume it's installed into a Conda environment named "mpas-tools". The other Python scripts should be compatible with the 'npl' environment on Casper.
+Note: If you need to run Step 3 (Creating a SCRIP file), ensure you have installed the 'mpas-tools' package from <https://github.com/MPAS-Dev/MPAS-Tools>. Here we assume it's installed into a Conda environment named "mpas-tools". The other Python scripts should be compatible with the 'npl' environment on Casper.
 
-Step 1. Converting the lonVertex Range in the MPAS mesh file
+Step 1. Edit \`config.sh\`: chose the resolution of your MPAS mesh (e.g., dx=15km), the path to the directory that contains the mesh files, and the path to your MPAS files.
 
-MPAS has the \`lonVertex\` range from (-pi, pi), but creating a connectivity file requires a range from (0, 2pi). To convert the \`lonVertex\` range from (-pi, pi) to (0, 2pi), use the script \`convert\_lonVertex.py\`. In that script, choose the mesh you are using.
+Step 2. Converting the lonVertex Range in the MPAS mesh file [only needed if a connectivity file for your mesh does not exists]
+
+MPAS has the \`lonVertex\` range from (-pi, pi), but creating a connectivity file requires a range from (0, 2pi). To convert the \`lonVertex\` range from (-pi, pi) to (0, 2pi), use the script \`convert\_lonVertex.py\`.
 
 To run on Casper:
 
@@ -33,17 +35,17 @@ To run on Casper:
     conda activate npl
     python convert_lonVertex.py
 
-Step 2. Creating a SCRIP File
+Step 3. Creating a SCRIP File [only needed if a connectivity file for your mesh does not exists]
 
-This step is needed because the MPAS mesh file is not SCRIP-conform. To generate a SCRIP file from the MPAS mesh file, use the script \`create\_SCRIP-file.sh\`. In that script, choose your MPAS mesh via the \`dx\` variable (e.g., \`dx="15km"\`).
+This step is needed because the MPAS mesh file is not SCRIP-conform. To generate a SCRIP file from the MPAS mesh file, use the script \`create\_SCRIP-file.sh\`. 
 
 To run on Casper:
 
     ./create_SCRIP-file.sh
 
-Step 3. Creating a Grid Connectivity File
+Step 4. Creating a Grid Connectivity File [only needed if a connectivity file for your mesh does not exists]
 
-The connectivity file is what TE needs to read the unstructured MPAS data. Create a grid connectivity file by executing the script \`create\_connectivity-file.sh\`. Again, choose your MPAS mesh via the \`dx\` variable (e.g., \`dx="15km"\`).
+The connectivity file is what TE needs to read the unstructured MPAS data. Create a grid connectivity file by executing the script \`create\_connectivity-file.sh\`. 
 
 To run on Casper:
 
@@ -53,7 +55,7 @@ Note: For a 15-km mesh or higher resolution meshes, use the second executable th
 
 Now we should have a connectivity file, and we can move on to pre-process the actual MPAS \`diag\` files.
 
-Step 4. Pre-processing MPAS Diagnostic Files
+Step 5. Pre-processing MPAS Diagnostic Files
 
 Before running TE on the MPAS diagnostic files, some additional pre-processing steps are required. These steps should be performed for each output file, but with the batch scripts provided, this can be done efficiently. The \`preprocess\_diag\_files.sh\` script combines all the pre-processing steps.
 
@@ -79,7 +81,7 @@ To run TE efficiently, we need to provide a filelist of the \`diag\` files and a
 
 To run on Casper:
 
-    ./make_filelist
+    ./make_filelists.sh
 
 Step 2. Running TE
 
