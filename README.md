@@ -63,7 +63,7 @@ To submit on Casper:
 
     qsub preprocess_diag_files.sh
 
-Don't forget to change the project account key and update the paths in the script.
+Don't forget to change the project account key and some parameters such as the simulations start date and the time interval between output files (the last two are needed to loop through output files).
 
 The following steps are included in `preprocess_diag_files.sh`:
 
@@ -91,6 +91,6 @@ To run on Casper:
 
     qsub run_detectnodes_stitchnodes_batch.sh
 
-Ensure you have made necessary changes to the project account key and paths in the script.
+Ensure you have made necessary changes to the project account key and the parameter settings for detectNodes and stitchNodes. There are also scripts to run detectNodes and stitchNodes individually on the command line. 
 
 There is a plotting script, plot_tempestextremes.ipynb, that you can use to make plots of TC tracks and intensity of the TCs in \`tc\_tracks.txt\`.
