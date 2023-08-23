@@ -4,7 +4,7 @@
 #PBS -l select=1:ncpus=1:mem=20GB
 #PBS -l walltime=1:00:00
 #PBS -q casper
-#PBS -J 0-984
+#PBS -J 0-1
 #PBS -j oe
 
 ################################################################################
@@ -38,12 +38,13 @@ module load nco
 module load conda
 conda activate npl
 
-# Define experiment and parameters
-experiment="dyamond_2"
-dx="30km"
-startdate="2020-01-20 00:00:00"
+# Define dx, meshdir, datadir, and mesh_dict.
+. config.sh
+echo "datadir: ${datadir}"
+
+# Define some parameters
+startdate="2016-08-01 00:00:00"
 interval_hours=1
-datapath="/glade/campaign/mmm/wmr/fjudt/projects/$experiment/$dx"
 
 # Get the current date and forecast time
 i=${PBS_ARRAY_INDEX}
@@ -51,7 +52,7 @@ current_seconds=$(awk "BEGIN {printf \"%.0f\", ($i * $interval_hours * 3600)}")
 forecast_time=$(awk "BEGIN {printf \"%.2f\", ($i * $interval_hours)}")
 current_date=$(date -d "@$(( $(date -d "$startdate" +%s) + $current_seconds))" +"%Y-%m-%d_%H.%M.%S")
 
-ifile="${datapath}/diag.${current_date}.nc"
+ifile="${datadir}/diag.${current_date}.nc"
 
 # Display information
 echo "Processing file: $ifile"

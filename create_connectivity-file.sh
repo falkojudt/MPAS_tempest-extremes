@@ -11,18 +11,19 @@
 # 2. Set the 'gridconnectivityfile' variable to the desired path for the grid connectivity file.
 # 3. Run this script to generate the grid connectivity file.
 
-# Define dx, datadir, and mesh_dict.
+# Define dx, meshdir, datadir, and mesh_dict.
 . config.sh
 
 # Path to the SCRIP file
-scripfile="/glade/scratch/fjudt/mpas_meshes/x1.${mesh_dict[$dx]}.grid.SCRIP.nc"
+scripfile="${meshdir}/x1.${mesh_dict[$dx]}.grid.SCRIP.nc"
 
 # Path for the grid connectivity file
-gridconnectivityfile="/glade/scratch/fjudt/mpas_meshes/x1.${mesh_dict[$dx]}.grid-connectivity.txt"
+gridconnectivityfile="${meshdir}/x1.${mesh_dict[$dx]}.grid-connectivity.txt"
 
 # Run the 'GenerateConnectivityFile' command to generate the grid connectivity file
-#./bin/GenerateConnectivityFile --in_mesh $scripfile --out_type FV --out_connect $gridconnectivityfile
+~/tempestextremes/bin/GenerateConnectivityFile --in_mesh $scripfile --out_type FV --out_connect $gridconnectivityfile
 
 #Note: For a 15-km mesh or higher resolution meshes, use:
-/glade/work/zarzycki/tempestextremes/bin/GenerateConnectivityFile --in_mesh $scripfile --out_type FV --out_connect $gridconnectivityfile
+#/glade/work/zarzycki/tempestextremes/bin/GenerateConnectivityFile --in_mesh $scripfile --out_type FV --out_connect $gridconnectivityfile
 
+echo "Created ${gridconnectivityfile} from ${scripfile}."

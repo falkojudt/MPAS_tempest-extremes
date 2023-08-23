@@ -1,7 +1,10 @@
 # Specify the resolution
-dx=15km
+dx=7.5km
 
-# Directory containing MPAS files
+# Directory containing MPAS mesh files
+meshdir=/glade/scratch/fjudt/mpas_meshes
+
+# Directory containing MPAS output files
 datadir=/glade/campaign/mmm/wmr/fjudt/projects/dyamond_1/$dx
 
 # Modify the 'mesh_dict' associative array to map resolution names to the corresponding mesh IDs.

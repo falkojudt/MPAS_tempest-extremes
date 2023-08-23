@@ -21,28 +21,70 @@ import shutil
 import numpy as np
 import netCDF4 as nc
 import os
+import re
 
 # Directory containing MPAS grid files
-datadir = "/glade/scratch/fjudt/mpas_meshes"
+meshdir = "/glade/scratch/fjudt/mpas_meshes"
 
-# Resolution directory mapping resolution names to cell counts
-resolution_dir = {
-   "480km"  :     2562,
-   "240km"  :    10242,
-   "120km"  :    40962,
-   "60km"   :   163842,
-   "30km"   :   655362,
-   "15km"   :  2621442,
-   "7.5km"  : 10485762,
-   "3.75km" : 41943042,
-}
+# Read the configuration from config.sh
+with open('config.sh', 'r') as config_file:
+    config_lines = config_file.readlines()
 
-# Specify the desired resolution to modify lonVertex
-dx = "15km"
+# Extract the desired resolution from the config file
+dx_line = [line for line in config_lines if line.startswith('dx=')][0]
+dx_match = re.match(r'dx=(\d+\.\d+|\d+)km', dx_line)
+if dx_match:
+    dx_value = dx_match.group(1) + "km"
+else:
+    raise ValueError("Could not extract resolution from config.sh")
+
+# Extract the meshdir from the config file
+meshdir_line = [line for line in config_lines if line.startswith('meshdir=')][0]
+meshdir_match = re.match(r'meshdir=(.*)', meshdir_line)
+if meshdir_match:
+    meshdir = meshdir_match.group(1)
+else:
+    raise ValueError("Could not extract meshdir from config.sh")
+
+# Extract the datadir from the config file
+datadir_line = [line for line in config_lines if line.startswith('datadir=')][0]
+datadir_match = re.match(r'datadir=(.*)', datadir_line)
+if datadir_match:
+    datadir_template = datadir_match.group(1)
+else:
+    raise ValueError("Could not extract datadir from config.sh")
+# Replace $dx with the dx_value in the datadir template
+datadir = datadir_template.replace('$dx', dx_value)
+
+# Extract the mesh_dict from the config file
+mesh_dict = {}
+in_mesh_dict = False
+for line in config_lines:
+    if line.startswith('declare -A mesh_dict'):
+        in_mesh_dict = True
+    elif in_mesh_dict and line.strip() == '}':
+        break
+    elif in_mesh_dict:
+        key, value = line.strip().split('=', 1)
+        key = re.search(r'"([^"]+)"', key).group(1)  # Extract key within double quotes
+        mesh_dict[key] = int(value)
+
+# Check if the desired resolution is in the mesh_dict
+if dx_value in mesh_dict:
+    desired_resolution = dx_value
+    desired_mesh_id = mesh_dict[dx_value]
+else:
+    raise ValueError("Desired resolution not found in mesh_dict")
+
+# Now you can use 'desired_resolution' and 'desired_mesh_id' in your script
+print("Desired Resolution:", desired_resolution)
+print("Desired Mesh ID:", desired_mesh_id)
+print("data directory:", datadir)
+print("mesh directory:", meshdir)
 
 # Source and destination file paths
-src_file = f"{datadir}/x1.{resolution_dir[dx]}.grid.nc"
-dst_file = f"{datadir}/x1.{resolution_dir[dx]}.grid.modified-lonVertex.nc"
+src_file = f"{meshdir}/x1.{desired_mesh_id}.grid.nc"
+dst_file = f"{meshdir}/x1.{desired_mesh_id}.grid.modified-lonVertex.nc"
 base, ext = os.path.splitext(src_file)
 dst_file = base + ".modified-lonVertex" + ext
 

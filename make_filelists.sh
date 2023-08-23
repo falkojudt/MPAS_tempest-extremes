@@ -1,18 +1,22 @@
 #!/bin/bash
 
-experiment="dyamond_2"
-dx=30km
+# Run this script to create a text file containing the `--in_data` argument
+# for a sequence of processing operations (one per line) and a text file 
+# containing an equal number of lines to `--in_data_list` specifying the output
+# nodefiles from each input datafile. This will generate a list of diagnostic 
+# files that TE will run on.
 
-datadir="/glade/campaign/mmm/wmr/fjudt/projects/$experiment/$dx"
+# Define dx, meshdir, datadir, and mesh_dict.
+. config.sh
 
 if [ ! -d "$datadir/te" ]; then
     mkdir "$datadir/te"
 fi
 
 #--- 3-hourly
-ls ${datadir}/diag.2020-0?-??_{00,03,06,09,12,15,18,21}.00.00.nc > $datadir/te/diag_filelist.txt
+#ls ${datadir}/diag.20??-??-??_{00,03,06,09,12,15,18,21}.00.00.nc > $datadir/te/diag_filelist.txt
 #--- 6-hourly
-ls ${datadir}/diag.2020-0?-??_{00,06,12,18}.00.00.nc > $datadir/te/diag_filelist.txt
+ls ${datadir}/diag.20??-??-??_{00,06,12,18}.00.00.nc > $datadir/te/diag_filelist.txt
 
 #make detect-nodes fileliest 
 source_file="$datadir/te/diag_filelist.txt"
