@@ -6,7 +6,7 @@
 #PBS -q casper
 #PBS -j oe
 
-export TMPDIR=/glade/scratch/$USER/temp
+export TMPDIR=/glade/derecho/scratch/$USER/tmp
 mkdir -p $TMPDIR
 
 declare -A mesh_dict
@@ -23,7 +23,7 @@ experiment="dyamond_2"
 dx="3.75km"
 
 datadir="/glade/campaign/mmm/wmr/fjudt/projects/$experiment/$dx"
-connectfile="/glade/scratch/fjudt/mpas_meshes/x1.${mesh_dict[$dx]}.grid-connectivity.txt"
+connectfile="/glade/derecho/scratch/fjudt/mpas_meshes/x1.${mesh_dict[$dx]}.grid-connectivity.txt"
 
 #----------- settings from Ullrich et al. 2021
 # --searchbymin MSL

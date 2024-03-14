@@ -31,7 +31,5 @@ datadir = os.path.dirname(ifile)
 # If 'ter(nCells)' variable does not exists in ifile, copy it from the init.nc file 
 with nc.Dataset(ifile, 'r') as ncfile:
     if 'ter(nCells)' not in ncfile.variables:
-    print(f"'ter' not in {ifile}...need to copy it from {initfile}")
-        command3 = ['ncks', '-A', '-v', 'ter', f'{initfile}', ifile]
-        print(command3)
-        subprocess.run(command3)
+       print(f"'ter' not in {ifile}...need to copy it from {initfile}")
+       subprocess.run(['ncks', '-A', '-v', 'ter', f'{initfile}', ifile])
