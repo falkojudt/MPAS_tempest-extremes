@@ -57,7 +57,7 @@ Now we should have a connectivity file, and we can move on to pre-process the ac
 
 Step 5. Pre-processing MPAS Diagnostic Files
 
-Before running TE on the MPAS diagnostic files, some additional pre-processing steps are required. These steps should be performed for each output file, but with the batch scripts provided, this can be done efficiently. The \`preprocess\_diag\_files.sh\` script combines all the pre-processing steps.
+Before running TE on the MPAS diagnostic files, some additional pre-processing steps are required. These steps should be performed for each output file, but with the batch scripts provided, this can be done efficiently. The \`preprocess\_diag\_files.sh\` script combines all the pre-processing steps. We make a copy of a diag file that only contains the relevant variables for TempestExtremes, and modify that file to not corrupt the original data."
 
 To submit on Casper:
 
@@ -67,11 +67,13 @@ Don't forget to change the project account key and some parameters such as the s
 
 The following steps are included in `preprocess_diag_files.sh`:
 
-1\. Rename the dimension "Time" to "time" via the python script `make_time_te_compliant.py`
+1.\ Copy variables from original diag file to temporary diag file via the python script `make_time_te_compliant.py`.
 
-2\. Add a numeric "time" variable (TE does not support MPAS's \`xtime\` variable) via the python script `make_time_te_compliant.py`.
+2\. Rename the dimension "Time" to "time" (`make_time_te_compliant.py`).
 
-3\. Add surface topography (height of the lowest model level) to the files. This is necessary to filter out false alarms related to topography via the python script `copy_zgrid_to_diag.py`.
+3\. Add a numeric "time" variable (TE does not support MPAS's \`xtime\` variable) (`make_time_te_compliant.py`).
+
+4\. Add surface topography (model variable "ter") to the files. This is optional, and used to filter out false alarms related to topography via the python script `copy_ter_to_diag.py`.
 
 Running Tempest Extremes:
 
