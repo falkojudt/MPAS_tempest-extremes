@@ -19,7 +19,7 @@ The scripts required to pre-process the data and run TE can be downloaded by clo
 
 Pre-processing steps:
 
-Before running Tempest Extremes, some pre-processing steps need to be performed to ensure compatibility with the tool. Steps 2-4 only need to be done once for each MPAS mesh, **and only if a connectivity file does not exist**. Check for a connectivity file for a given mesh here: \`/glade/campaign/mmm/wmr/fjudt/mpas\_meshes/x1.XXXXXX.grid-connectivity.txt\`, where XXXXXX represents the number of cells in the mesh. For example, the 15-km MPAS mesh has 2621442 cells, so we would look for the connectivity file \`x1.2621442.grid-connectivity.txt\`. If such a file does not exist, proceed with Steps 1-3 below; otherwise, continue with Step 5.
+Before running Tempest Extremes, some pre-processing steps need to be performed to ensure compatibility with the tool. Steps 2-4 only need to be done once for each MPAS mesh, **and only if a connectivity file does not exist**. Check for a connectivity file for a given mesh here: \`/glade/campaign/mmm/wmr/fjudt/mpas\_meshes/x1.XXXXXX.grid-connectivity.txt\`, where XXXXXX represents the number of cells in the mesh. For example, the 15-km MPAS mesh has 2621442 cells, so we would look for the connectivity file \`x1.2621442.grid-connectivity.txt\`. If such a file does not exist, proceed with Steps 1-4 below; otherwise, continue with Step 5.
 
 Note: If you need to run Step 3 (Creating a SCRIP file), ensure you have installed the 'mpas-tools' package from <https://github.com/MPAS-Dev/MPAS-Tools>. Here we assume it's installed into a Conda environment named "mpas-tools". The other Python scripts should be compatible with the 'npl' environment on Casper.
 
@@ -57,17 +57,17 @@ Now we should have a connectivity file, and we can move on to pre-process the ac
 
 Step 5. Pre-processing MPAS Diagnostic Files
 
-Before running TE on the MPAS diagnostic files, some additional pre-processing steps are required. These steps should be performed for each output file, but with the batch scripts provided, this can be done efficiently. The \`preprocess\_diag\_files.sh\` script combines all the pre-processing steps. We make a copy of a diag file that only contains the relevant variables for TempestExtremes, and modify that file to not corrupt the original data."
+Before running TE on the MPAS diagnostic files, some additional pre-processing steps are required. These steps should be performed for each output file, but with the batch scripts provided, this can be done efficiently through PBS Job Arryas. The \`preprocess\_diag\_files.sh\` script combines all the pre-processing steps. Specifically, we make a copy of a diag file that only contains the relevant variables for TempestExtremes, and modify that file to not corrupt the original data. The \`preprocess\_diag\_files.sh\` script is launched via the \`submit\_preproc\_job.sh\` script. You need to modify the \`submit\_preproc\_job.sh\` and \`preprocess\_diag\_files.sh\` scripts."
 
 To submit on Casper:
 
-    qsub preprocess_diag_files.sh
+    ./submit_preproc_job.sh
 
-Don't forget to change the project account key and some parameters such as the simulations start date and the time interval between output files (the last two are needed to loop through output files).
+Don't forget to change the project account key and some parameters in the \`preprocess\_diag\_files.sh\` script and the simulations start date and the time interval between output files in the \`submit\_preproc\_job.sh\` script.
 
 The following steps are included in `preprocess_diag_files.sh`:
 
-1.\ Copy variables from original diag file to temporary diag file via the python script `make_time_te_compliant.py`.
+1\. Copy variables from original diag file to temporary diag file via the python script `make_time_te_compliant.py`.
 
 2\. Rename the dimension "Time" to "time" (`make_time_te_compliant.py`).
 
