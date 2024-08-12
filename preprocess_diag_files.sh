@@ -4,22 +4,16 @@
 #PBS -l select=1:ncpus=1:mem=20GB
 #PBS -l walltime=1:00:00
 #PBS -q casper
-#PBS -J 0-472
+####PBS -J 0-496
 #PBS -j oe
 
 ################################################################################
-# Parallelization using "Job Arrays" for Efficient Job Execution
-#
-# This script demonstrates the use of job arrays for parallelization in Bash.
-# The environment variable $PBS_ARRAY_INDEX is utilized as an argument in running
-# the jobs. The variable is set by the scheduler in each of the array subjobs,
-# and it spans the range of values specified in the #PBS -J array directive.
-#
 # In this script, $PBS_ARRAY_INDEX is converted to a datetime string that matches
 # an MPAS diagnostic file. The job array range is typically set using
 # #PBS -J FIRST-LAST, where FIRST represents 0 (0 hours after $startdate), and
 # LAST is calculated based on the simulation length in days multiplied by 24
-# hours per day divided by the $interval_hours value.
+# hours per day divided by the $interval_hours value. This is done in the 
+# submit_preproc_job.sh script.
 #
 # The script calls two Python scripts:
 #   1. make_time_te_compliant.py: Fixes the issue of MPAS diag files having the
@@ -45,17 +39,14 @@ echo "tmpdir: ${tmpdir}"
 echo "trackdir: ${trackdir}"
 echo "initfile: ${initfile}"
 
-# Define some parameters
-startdate="2020-01-20 00:00:00"
-interval_hours=3
-
 # Get the current date and forecast time
-i=${PBS_ARRAY_INDEX}
+i=${PBS_ARRAY_INDEX:-0}
 current_seconds=$(awk "BEGIN {printf \"%.0f\", ($i * $interval_hours * 3600)}")
 forecast_time=$(awk "BEGIN {printf \"%.2f\", ($i * $interval_hours)}")
 current_date=$(date -ud "@$(( $(date -ud "$startdate" +%s) + $current_seconds))" +"%Y-%m-%d_%H.%M.%S")
 
 ifile="${datadir}/diag.${dx}.${current_date}.nc"
+#ifile="${datadir}/diag.${current_date}.nc"
 
 # Display information
 echo "------------------------"
@@ -70,4 +61,7 @@ python make_time_te_compliant.py "$ifile" "$startdate" "$forecast_time" "$tmpdir
 #    are tied to topography.
 ifile="${tmpdir}/diag.${dx}.${current_date}.nc"
 python copy_ter_to_diag.py "$ifile" "$initfile"
-### python copy_zgrid_to_diag.py "$ifile" "$initfile"
+
+# Move log files to logs directory
+mv te_preprocess* logs/
+

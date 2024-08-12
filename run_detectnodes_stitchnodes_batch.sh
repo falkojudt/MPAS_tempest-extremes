@@ -2,7 +2,7 @@
 #PBS -N detectNodes
 #PBS -A NMMM0013
 #PBS -l select=4:ncpus=24:mpiprocs=8
-#PBS -l walltime=02:00:00
+#PBS -l walltime=04:00:00
 #PBS -q casper
 #PBS -j oe
 
@@ -49,4 +49,6 @@ rm -f $tmpdir/tc_tracks.txt
 
 ~/tempestextremes/bin/StitchNodes --in_connect $connectfile --in_list $tmpdir/detect-nodes_filelist.txt --out $tmpdir/tc_tracks.txt --in_fmt $infmt --range $range --mintime $mintime --maxgap $maxgap --threshold $threshold --min_path_dist $min_path_dist --out_file_format csv
 
-cp $tmpdir/tc_tracks.txt $trackdir/tc_tracks.txt
+cp $tmpdir/tc_tracks.txt $trackdir/tc_tracks_6h.txt
+
+mv log*.txt logs/

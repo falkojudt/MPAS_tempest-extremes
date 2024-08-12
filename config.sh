@@ -4,15 +4,17 @@ dx="3.75km"
 
 #--- Set directories/files
 meshdir="/glade/campaign/mmm/wmr/fjudt/mpas_meshes" # contains MPAS meshes
-datadir="/glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save" # contains diag/output files
+datadir="/glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save" # contains model output
+#datadir="/glade/campaign/mmm/wmr/fjudt/projects/dyamond_2/3.75km"
 tmpdir="/glade/derecho/scratch/fjudt/te/tmp" # directory to hold temporary files
 trackdir="/glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/${dx}/te" # directory where tc_tracks.txt file will be copied to 
 
 initfile="/glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc" # init file
+#initfile="/glade/campaign/mmm/wmr/fjudt/projects/dyamond_2/${dx}/x1.41943042.static.nc"
 
 
 # Associative array mapping resolution names to mesh IDs (mesh spacing <-> number of grid cells)
-# So far, the dictionary has  only quasi uniform resolution meshes
+# So far, the dictionary has only quasi uniform resolution meshes
 declare -A mesh_dict
 mesh_dict["480km"]=2562
 mesh_dict["240km"]=10242

@@ -1,0 +1,450 @@
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_06.00.00.nc
+Forecast time: 30.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_18.00.00.nc
+Forecast time: 42.00 hours since 2020-01-20 00:00:00
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_12.00.00.nc
+Forecast time: 36.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-22_00.00.00.nc
+Forecast time: 48.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+------------------------
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_12.00.00.nc
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+Forecast time: 12.00 hours since 2020-01-20 00:00:00
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_00.00.00.nc
+Forecast time: 0.00 hours since 2020-01-20 00:00:00
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_06.00.00.nc
+------------------------
+Forecast time: 6.00 hours since 2020-01-20 00:00:00
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_00.00.00.nc
+Forecast time: 24.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_18.00.00.nc
+Forecast time: 18.00 hours since 2020-01-20 00:00:00
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+------------------------
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_12.00.00.nc
+Forecast time: 12.00 hours since 2020-01-20 00:00:00
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_06.00.00.nc
+Forecast time: 30.00 hours since 2020-01-20 00:00:00
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_00.00.00.nc
+Forecast time: 0.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+------------------------
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_18.00.00.nc
+Forecast time: 18.00 hours since 2020-01-20 00:00:00
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_06.00.00.nc
+------------------------
+Forecast time: 6.00 hours since 2020-01-20 00:00:00
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_00.00.00.nc
+Forecast time: 24.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+------------------------
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_18.00.00.nc
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+Forecast time: 42.00 hours since 2020-01-20 00:00:00
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_12.00.00.nc
+Forecast time: 36.00 hours since 2020-01-20 00:00:00
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-22_00.00.00.nc
+Forecast time: 48.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_12.00.00.nc
+Forecast time: 12.00 hours since 2020-01-20 00:00:00
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_06.00.00.nc
+Forecast time: 30.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_00.00.00.nc
+Forecast time: 0.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_00.00.00.nc
+Forecast time: 24.00 hours since 2020-01-20 00:00:00
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_18.00.00.nc
+Forecast time: 18.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_06.00.00.nc
+Forecast time: 6.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_12.00.00.nc
+Forecast time: 36.00 hours since 2020-01-20 00:00:00
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_18.00.00.nc
+Forecast time: 42.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-22_00.00.00.nc
+Forecast time: 48.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log'mv: cannot stat 'logs/job_output.log'mv: cannot stat 'logs/job_output.log': No such file or directory
+: No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_output.log'cannot stat 'logs/job_error.log': No such file or directory
+: No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: : No such file or directorycannot stat 'logs/job_error.log'
+: No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_output.log'mv: cannot stat 'logs/job_error.log': No such file or directory
+: No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_12.00.00.nc
+Forecast time: 12.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_18.00.00.nc
+------------------------
+------------------------
+------------------------
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_06.00.00.nc
+Forecast time: 18.00 hours since 2020-01-20 00:00:00
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_06.00.00.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-22_00.00.00.nc
+Forecast time: 48.00 hours since 2020-01-20 00:00:00
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-20_00.00.00.nc
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_00.00.00.nc
+Forecast time: 30.00 hours since 2020-01-20 00:00:00
+Forecast time: 6.00 hours since 2020-01-20 00:00:00
+Forecast time: 0.00 hours since 2020-01-20 00:00:00
+Forecast time: 24.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_12.00.00.nc
+Forecast time: 36.00 hours since 2020-01-20 00:00:00
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-21_18.00.00.nc
+Forecast time: 42.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-22_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_error.log': No such file or directory
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_06.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-20_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-21_18.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'logs/job_output.log': No such file or directory
+mv: cannot stat 'logs/job_error.log': No such file or directory

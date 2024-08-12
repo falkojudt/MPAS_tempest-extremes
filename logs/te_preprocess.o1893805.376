@@ -1,0 +1,25 @@
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-04-23_00.00.00.nc
+Forecast time: 2256.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-04-23_00.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-04-23_00.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'te_preprocess.o1893805.385': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.386': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.387': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.388': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.389': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.390': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.391': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.392': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.393': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.394': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.395': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.396': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.397': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.399': No such file or directory

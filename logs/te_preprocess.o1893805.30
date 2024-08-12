@@ -1,0 +1,57 @@
+meshdir: /glade/campaign/mmm/wmr/fjudt/mpas_meshes
+datadir: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save
+tmpdir: /glade/derecho/scratch/fjudt/te/tmp
+trackdir: /glade/campaign/mmm/wmr/fjudt/projects/dyamond_3/3.75km/te
+initfile: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+------------------------
+Processing file: /glade/campaign/mmm/wmr/skamaroc/NSC_2023/3.75km_simulation_output_save/diag.3.75km.2020-01-27_12.00.00.nc
+Forecast time: 180.00 hours since 2020-01-20 00:00:00
+filecopy: /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-27_12.00.00.nc
+Copy variables to new diag file and make variable 'time' TempestExtremes compliant...process completed.
+'ter' not in /glade/derecho/scratch/fjudt/te/tmp/diag.3.75km.2020-01-27_12.00.00.nc...need to copy it from /glade/campaign/mmm/wmr/skamaroc/NSC_2023/x1.41943042.static.nc
+mv: cannot stat 'te_preprocess.o1893805.11': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.12': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.13': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.14': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.15': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.16': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.17': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.18': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.19': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.2': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.20': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.21': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.22': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.23': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.24': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.25': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.26': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.27': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.28': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.29': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.3': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.31': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.32': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.33': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.34': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.35': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.36': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.37': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.38': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.39': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.4': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.40': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.41': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.42': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.43': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.44': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.45': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.46': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.47': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.48': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.49': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.5': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.6': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.7': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.8': No such file or directory
+mv: cannot stat 'te_preprocess.o1893805.9': No such file or directory

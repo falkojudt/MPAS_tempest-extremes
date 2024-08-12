@@ -16,10 +16,10 @@
 #fi
 
 #--- 3-hourly
-ls ${tmpdir}/diag.${dx}.20??-??-??_{00,03,06,09,12,15,18,21}.00.00.nc > ${tmpdir}/diag_filelist.txt
+#ls ${tmpdir}/diag.${dx}.20??-??-??_{00,03,06,09,12,15,18,21}.00.00.nc > ${tmpdir}/diag_filelist.txt
 #ls ${datadir}/diag.20??-??-??_{00,03,06,09,12,15,18,21}.00.00.nc > $datadir/te/diag_filelist.txt
 #--- 6-hourly
-#ls ${datadir}/diag.${dx}.20??-??-??_{00,06,12,18}.00.00.nc > $datadir/te/diag_filelist.txt
+ls ${tmpdir}/diag.${dx}.20??-??-??_{00,06,12,18}.00.00.nc > $tmpdir/diag_filelist.txt
 
 #make detect-nodes fileliest 
 source_file="${tmpdir}/diag_filelist.txt"
